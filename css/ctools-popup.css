@@ -1,0 +1,44 @@
+div.ctools-modal-content {
+  border: 1px solid #dadada;
+}
+div.ctools-modal-content .modal-header {
+  background: #197581;
+  padding: 5px .25em 5px 1em;
+}
+div.ctools-modal-content a.close {
+  text-decoration: none;
+}
+div.ctools-modal-content a.close img {
+  margin-left: 5px;
+}
+div.ctools-modal-content .form-item-context,
+div.ctools-modal-content .description {
+  display: none;
+}
+div.ctools-modal-content .form-item label {
+  float: none;
+}
+div.ctools-modal-content .resizable-textarea {
+  margin: 0;
+}
+div.ctools-modal-content .form-actions .button {
+  margin-right: 15px;
+}
+div.ctools-modal-content .form-item {
+  margin: 0 5em 10px 0;
+  padding: 0;
+}
+div.ctools-modal-content .form-item-override-title-text {
+  padding: 0;
+}
+div.ctools-modal-content .form-item-override-title-text .form-text {
+  padding: 8px 10px;
+}
+div.ctools-modal-content .form-item-override-title .form-checkbox {
+  float: left;
+  margin: 6px 6px 0 0;
+}
+div.ctools-modal-content .form-item-override-title label {
+  height: auto;
+  padding: 0;
+}

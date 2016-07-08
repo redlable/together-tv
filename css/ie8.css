@@ -1,0 +1,25 @@
+/*------------------------------------*\
+	ENBREL TOGETHER
+	INTERNET EXPLORER 8 STYLES
+	
+	By Simon Wiffen
+	NORTHERN CONTRAST LTD
+	
+	http://www.northerncontrast.com
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+	OVERRIDE STYLES
+\*------------------------------------*/
+.timeline li span{
+	display:none;
+}
+.timeline li.current span{
+	display:block;
+}
+.col-break-desktop{
+	clear:both;
+}

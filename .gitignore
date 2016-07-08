@@ -1,0 +1,5 @@
+.sass-cache/
+config.rb
+scss/
+.DS_Store
+.idea/

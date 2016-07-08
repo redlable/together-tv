@@ -1,0 +1,66 @@
+/*------------------------------------------------------------------------------
+ Cookie
+ */
+
+.ccc-go #ccc-icon button {
+  background: url(../img/cookie/corner-l.png) no-repeat 0 0;
+  width: 88px;
+  height: 87px;
+}
+
+#cccwr .ccc-go #ccc-icon.ccc-triangle button {
+  background-position: 0 0 !important;
+  outline: none;
+}
+
+#cccwr.ccc-left .ccc-expand {
+  bottom: 1px;
+  background: #1aaeba;
+  border-radius: 0 5px 0 0;
+  left: 1px !important;
+  box-shadow: none;
+}
+
+#cccwr.ccc-left .ccc-expand:hover {
+  background: #1c828e;
+}
+
+
+div#cccwr .ccc-content {
+  color: #000;
+  font-size: 12px !important;
+  margin: 20px 13px 35px;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.ccc-left .ccc-widget {
+   bottom: 45px !important;
+    left: 10px !important;
+}
+
+@media (min-width: 380px) {
+  .ccc-left .ccc-widget {
+   bottom: 45px !important;
+    left: 45px !important;
+  }
+}
+
+.ccc-widget .ccc-outer {
+    border: 1px solid #1c828e;
+    width: 300px
+  }
+
+.ccc-widget .ccc-inner p {
+  font-size: 12px;
+}
+
+.ccc-widget .ccc-inner  h2 {
+  background: #1c828e url(../img/cookie/c-star.png) no-repeat 19px 8px;
+  font-size: 20px;
+  padding: 13px 50px 14px;
+}
+
+.ccc-widget .ccc-inner .ccc-about {
+  display: none;
+}

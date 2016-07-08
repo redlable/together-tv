@@ -1,0 +1,66 @@
+#tabs {
+  margin: 50px auto 0;
+  width: 80%;
+}
+
+#tabs .tabs {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tabs li {
+  float: left;
+  margin-right: 5px;
+}
+
+#tabs a {
+  background: #1c828e;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#tabs a:hover {
+  background: #106770;
+}
+
+@media screen and (max-width: 1305px) {
+  #tabs {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  #tabs {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  #tabs {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #tabs {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #tabs a {
+    font-size: 16px;
+    padding: 2px 8px;
+  }
+}
